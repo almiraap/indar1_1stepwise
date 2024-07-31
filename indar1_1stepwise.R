@@ -256,7 +256,7 @@ samsub$jumlah_penumpang <- test_data$predicted_jumlah_penumpang
 print(samsub)
 
 #simpan data frame ke file CSV
-write.csv(samsub, file = "D:/@ALMIRA/14. Indaton/4 Round 1/3 Data Running/sample_submision.csv", row.names = FALSE)
-samsub<-read.csv("D:/@ALMIRA/14. Indaton/4 Round 1/3 Data Running/sample_submision.csv")
+write.csv(samsub, file = "D:/@ALMIRA/14. Indaton/4 Round 1/3 Data Running/Indar1_1 Stepwise/sample_submision.csv", row.names = FALSE)
+samsub<-read.csv("D:/@ALMIRA/14. Indaton/4 Round 1/3 Data Running/Indar1_1 Stepwise/sample_submision.csv")
 head(samsub)
-
+colnames(samsub)<-c("id","jumlah_penumpang")
